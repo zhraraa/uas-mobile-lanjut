@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uas_mobile_lanjut/screens/signin_page.dart';
 import 'theme/app_theme.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Aplikasi Flutter',
       theme: AppTheme.theme,
-      home: const Scaffold(),
+      home: const SignInPage(),
     );
   }
 }
